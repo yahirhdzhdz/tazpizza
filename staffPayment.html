@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Usuario</title>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/styles.css" rel="stylesheet">
+    <script src="JS/jquery-3.5.1.js"></script>
+    <script src="JS/addUser.js"></script>
+</head>
+
+<body>
+    <div class="form-container">
+        <form class="form">
+            <h3 class="form-title">Pago de empleados</h3>
+            <div class="form-group">
+                <!--<label class="fas fa-lock input-icon">empleados</label>-->
+                <select class="form-control" id="type">
+                    <option value="Administrador">Administrador</option>
+                    <option value="Gerente">Gerente</option>
+                    <option value="Encargado de Area">Encargado de Area</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <i class="fas fa-user-tag input-icon"></i>
+                <input type="text" id="bons" class="form-input" placeholder="Ingrese los bonos">
+            </div>
+            <div class="form-group">
+                <i class="fas fa-lock input-icon"></i>
+                <input type="password" id="discounts" class="form-input" placeholder="Ingrese el descuento">
+            </div>
+            <div class="form-group">
+                <i class="fas fa-lock input-icon"></i>
+                <input type="password" id="total" class="form-input">
+            </div>
+            <input type="button" class="form-submit" value="Registrar">
+        </form>
+    </div>
+</body>
+
+</html>

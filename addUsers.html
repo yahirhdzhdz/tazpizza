@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Usuario</title>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/styles.css" rel="stylesheet">
+    <script src="JS/jquery-3.5.1.js"></script>
+    <script src="JS/addUser.js"></script>
+</head>
+
+<body>
+    <div class="form-container">
+        <form class="form">
+            <h1 class="form-title">Registrarse</h1>
+            <div class="form-group">
+                <i class="fas fa-user-tag input-icon"></i>
+                <input type="text" id="user" class="form-input" placeholder="Ingrese el nombre de usuario">
+            </div>
+            <div class="form-group">
+                <i class="fas fa-lock input-icon"></i>
+                <input type="password" id="pass" class="form-input" placeholder="Ingrese la contraseña">
+            </div>
+            <div class="form-group">
+                <i class="fas fa-lock input-icon"></i>
+                <select class="form-control" id="type">
+                    <option value="Administrador">Administrador</option>
+                    <option value="Gerente">Gerente</option>
+                    <option value="Encargado de Area">Encargado de Area</option>
+                </select>
+            </div>
+            <input type="button" class="form-submit" value="Añadir">
+        </form>
+    </div>
+</body>
+
+</html>
